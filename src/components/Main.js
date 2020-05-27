@@ -117,7 +117,7 @@ class Main extends React.Component {
           <h2 className="major">Contact</h2>
 
           <p>
-             Email: <a href="mailto:imohduni@gmail.com"> </a>
+             Email: <a href="mailto:imohduni@gmail.com">imohduni@gmail.com </a>
           </p>
          
           <ul className="icons">
