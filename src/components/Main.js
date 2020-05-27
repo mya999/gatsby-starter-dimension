@@ -114,7 +114,11 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Email: imohduni@gmail.com</h2>
+          <h2 className="major">Contact</h2>
+
+          <p>
+            Email: imohduni@gmail.com
+          </p>
          
           <ul className="icons">
             <li>
