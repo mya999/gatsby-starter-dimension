@@ -22,13 +22,13 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="cv"
-          className={`${this.props.article === 'cv' ? 'active' : ''} ${
+          id="intro"
+          className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">CV</h2>
+          <h2 className="major">Intro</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -56,13 +56,13 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="research"
-          className={`${this.props.article === 'research' ? 'active' : ''} ${
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Research</h2>
+          <h2 className="major">Work</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -85,13 +85,13 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="blog"
-          className={`${this.props.article === 'blog' ? 'active' : ''} ${
+          id="about"
+          className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Blog</h2>
+          <h2 className="major">About</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
